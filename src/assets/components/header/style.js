@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.header`
   
-  width: 100%;
+  max-width: 100%;
+  margin-top: -0.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -37,9 +38,9 @@ export const HeaderWrapper = styled.header`
 
   @media (max-width: 425px) {
 
-    section {
-      width: 100%;
-      padding: 3rem;
+    article {
+      width: 80%;
+      padding: 1rem;
 
       h1 {
        font-size: 2rem;      
@@ -49,7 +50,7 @@ export const HeaderWrapper = styled.header`
     img {
       width: 80%;
       height: 23rem;
-      margin-left: 6rem;
+      
     }
   }
 

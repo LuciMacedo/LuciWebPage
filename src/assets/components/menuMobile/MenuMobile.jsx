@@ -1,47 +1,61 @@
-import { X } from "phosphor-react";
+import { List, X } from "phosphor-react";
 import { Link } from "react-scroll";
-import { StyledMenu } from "./style";
+import { StyledBurguer, StyledNavigation, StyledBackground } from "./style";
+import { useState } from 'react'
 
-export function MenuMobile({isOpen, setIsOpen}) {
-  
+export function MenuMobile() {
+
+  const [isOpen, setIsOpen] = useState(false)
+  const handleClick = () => setIsOpen(!isOpen)
+
   return (
-    <StyledMenu isOpen={isOpen}>
-        <X size={35} onClick={() => setIsOpen(!isOpen)}/>
-        <ul>
-          <li>
-            <Link
-              to='gallery'
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={1000}
-            > Projects
-            </Link>
-          </li>
+    <>
+      <StyledBurguer>
+        <List size={30} onClick={handleClick} />
+      </StyledBurguer>
+      <StyledBackground isopen={isOpen}>
+      </StyledBackground>
+        <StyledNavigation isopen={isOpen}>
+          <ul>
+            <li>
+              <Link
+                to='gallery'
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={1000}
+                onClick={handleClick}
+              > Projects
+              </Link>
+            </li>
 
-          <li>
-            <Link
-              to='skills'
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={2000}
-            >Technogoly
-            </Link>
-          </li>
+            <li>
+              <Link
+                to='skills'
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={2000}
+                onClick={handleClick}
+              >Technogoly
+              </Link>
+            </li>
 
-          <li>
-            <Link
-              to='contact'
-              spy={true}
-              smooth={true}
-              offset={50}
-              duration={3000}
-            >Contact
-            </Link>
-          </li>
-        </ul>
-    </StyledMenu>
+            <li>
+              <Link
+                to='contact'
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={3000}
+                onClick={handleClick}
+              >Contact
+              </Link>
+            </li>
+          </ul>
+        </StyledNavigation>
+      
+    </>
   );
 }
 

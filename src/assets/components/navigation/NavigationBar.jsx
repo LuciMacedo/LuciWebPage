@@ -1,16 +1,16 @@
 import Logo from '../../img/luci.png'
 import { NavWrapper } from './style';
 import { Link } from "react-scroll";
-import { List } from 'phosphor-react';
+import { MenuMobile } from '../menuMobile/MenuMobile';
 
 
-export function NavigationBar({ setIsOpen }) {
+export function NavigationBar() {
 
   return (
     <NavWrapper>
       <img src={Logo} alt="Logo LM" />
       <div>
-        <List size={30} onClick={() => setIsOpen(true)} />
+        <MenuMobile/>
       </div>
       <ul>
         <li>

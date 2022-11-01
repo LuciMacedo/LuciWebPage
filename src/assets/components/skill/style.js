@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const SkillsTitle = styled.section`
   background: ${(props) => props.theme['black-500']};
-  width: 100%;
+  max-width: 100%;
   margin-top: 4rem;
   padding: 3rem;
   text-align: center;
@@ -19,7 +19,9 @@ export const SkillsTitle = styled.section`
 
 export const Skill = styled.article`
   display: flex;
+  margin-top: -1rem;
   gap: 1rem;
+  padding: 1rem;
   flex-direction: column; 
   justify-content: center;
   align-items: center;
@@ -31,7 +33,7 @@ export const Skill = styled.article`
     display: flex;
     gap: 1rem;
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin: 1rem;
     border: 3px solid ${(props) => props.theme['red']};
     border-radius: 10px;
   }

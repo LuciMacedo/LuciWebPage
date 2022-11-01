@@ -6,12 +6,13 @@ export const ProjectStyle = styled.main `
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
-
+  gap: 2rem;
   
   section {
+    display: flex;
+    justify-content: center;
       color: white;
-      width: 25rem;
+      width: 30rem;
       height: 16rem;
       position: relative;
       
@@ -23,7 +24,7 @@ export const ProjectStyle = styled.main `
       }
     
       div {
-        width: 100%;
+        width: 80%;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -70,6 +71,17 @@ export const ProjectStyle = styled.main `
         }
       }
   }
+
+  @media (max-width: 425px) {
+    section {
+      width: 90%;
+
+      img {
+      width: 95%;
+      margin: 1rem;
+      }
+    }
+  }
 `
 
 export const ButtonStyled = styled.section `
@@ -86,4 +98,4 @@ export const ButtonStyled = styled.section `
     color: white;
     }
   }
-  `
+`

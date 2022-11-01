@@ -33,6 +33,7 @@ export const NavWrapper = styled.nav`
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     padding: 1rem;
+    cursor: pointer;
   
     &:hover {
       border-bottom: 2px solid ${(props) => props.theme['red']};
