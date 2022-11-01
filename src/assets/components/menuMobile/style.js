@@ -5,7 +5,7 @@ export const StyledBurguer = styled.div `
   svg {
     z-index: 1000;
     cursor: pointer;
-    position: fixed;
+    position: absolute;
     top: 3.2rem;
     right: 2rem;
   }

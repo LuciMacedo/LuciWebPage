@@ -49,8 +49,9 @@ export const HeaderWrapper = styled.header`
 
     img {
       width: 80%;
-      height: 23rem;
-      
+      height: 20rem;
+      padding: 0.5rem;
+      margin-left: 5rem;
     }
   }
 
