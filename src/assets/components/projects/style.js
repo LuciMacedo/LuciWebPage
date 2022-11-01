@@ -11,10 +11,10 @@ export const ProjectStyle = styled.main `
   section {
     display: flex;
     justify-content: center;
-      color: white;
-      width: 30rem;
-      height: 16rem;
-      position: relative;
+    color: white;
+    width: 30rem;
+    height: 16rem;
+    position: relative;
       
       img {
       border-radius: 10px;
@@ -24,7 +24,7 @@ export const ProjectStyle = styled.main `
       }
     
       div {
-        width: 80%;
+        width: 90%;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -37,20 +37,16 @@ export const ProjectStyle = styled.main `
         
         h1 {
           color: ${(props) => props.theme['red']};
-          margin: .2rem auto;
+          margin: 1.5rem auto;
         }
         p {
           margin: .2rem auto;
-          padding: .5rem;
           color: ${(props) => props.theme['gray-100']};
         }
         h2 {
           color: ${(props) => props.theme['gray-100']};
           font-size: 1rem;
         }
-        p {
-          color: ${(props) => props.theme['gray-100']};
-          }
         section {
           width: 100%;
           position: relative;

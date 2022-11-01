@@ -49,7 +49,7 @@ export const HeaderWrapper = styled.header`
 
     img {
       width: 80%;
-      height: 20rem;
+      height: 23rem;
       padding: 0.5rem;
       margin-left: 5rem;
     }
