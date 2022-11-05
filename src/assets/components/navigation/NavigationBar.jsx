@@ -31,7 +31,7 @@ export function NavigationBar() {
             smooth={true}
             offset={50}
             duration={2000}
-          >Technogoly
+          >Technology
           </Link>
         </li>
 

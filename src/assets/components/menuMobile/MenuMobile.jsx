@@ -37,7 +37,7 @@ export function MenuMobile() {
                 offset={50}
                 duration={2000}
                 onClick={handleClick}
-              >Technogoly
+              >Technology
               </Link>
             </li>
 
