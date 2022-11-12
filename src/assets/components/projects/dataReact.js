@@ -1,11 +1,11 @@
 export const reactProjects = [
   { 
-    title: 'Ignite Feed',
-    description: 'Application with features like creating posts for a feedback, delete and publication date.', 
-    image: 'react/ignitefeed.png',
-    link: 'https://iginite-feed-154f.vercel.app/',
-    git: 'https://github.com/LuciMacedo/iginite-feed',
-    tech: 'React, GitHub',
+    title: 'Spider-man',
+    description: 'Spider-man films', 
+    image: 'htmlCssJs/spiderman.png',
+    link: 'https://spiderman-application-62ke.vercel.app/',
+    git: 'https://github.com/LuciMacedo/spiderman-application',
+    tech: 'HTML, CSS, JavaScript',
   },
   { 
     title: 'Ignite Event',

@@ -9,14 +9,6 @@ export const projectsData = [
     git: 'https://github.com/LuciMacedo/loopstudio',
     tech: 'React, GitHub, JavaScript',
   },
-  { 
-    title: 'Spider-man',
-    description: 'Spider-man films', 
-    image: 'htmlCssJs/spiderman.png',
-    link: 'https://spiderman-application-62ke.vercel.app/',
-    git: 'https://github.com/LuciMacedo/spiderman-application',
-    tech: 'HTML, CSS, JavaScript',
-  },
   {
     title: 'Nft Card',
     description: 'NFT preview card component', 

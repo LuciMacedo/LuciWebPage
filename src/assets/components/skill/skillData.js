@@ -2,16 +2,16 @@
 
 export const skills = [
   { 
-    tecnology: 'Html',
+    tecnology: 'HTML',
   },
   { 
-    tecnology: 'Css',
+    tecnology: 'CSS',
   },
   { 
-    tecnology: 'JavaScript',
+    tecnology: 'JAVASCRIPT',
   },
   { 
-    tecnology: 'React',
+    tecnology: 'REACT',
   },
 ]
 

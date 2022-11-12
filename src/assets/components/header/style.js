@@ -26,7 +26,7 @@ export const HeaderWrapper = styled.header`
     }
     
     p {
-      color: ${(props) => props.theme['gray-100']};
+      color: #dadad7d9;
       line-height: 2;
     }
   }
