@@ -33,10 +33,11 @@ export const HeaderWrapper = styled.header`
 
   img {
     width: 35%;
-    height: 30rem;
+    height: 35%;
+    
   }
 
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
 
     article {
       width: 80%;
@@ -48,10 +49,10 @@ export const HeaderWrapper = styled.header`
     }
 
     img {
-      width: 80%;
-      height: 23rem;
+      width: 70%;
+      height: 70%;
       padding: 0.5rem;
-      margin-left: 5rem;
+      margin-left: 2.5rem;
     }
   }
 

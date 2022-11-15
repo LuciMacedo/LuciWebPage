@@ -12,14 +12,14 @@ export const ProjectStyle = styled.main `
     display: flex;
     justify-content: center;
     color: white;
-    width: 30rem;
-    height: 16rem;
+    width: 35rem;
+    height: 20rem;
     position: relative;
       
       img {
       border-radius: 10px;
-      width: 25rem;
-      height: 16rem;
+      width: 35rem;
+      height: 20rem;
       box-shadow: 8px 11px 33px 5px rgba(0,0,0,0.59)
       }
     

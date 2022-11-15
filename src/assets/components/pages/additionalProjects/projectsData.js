@@ -20,7 +20,7 @@ export const projectsData = [
   {
     title: 'Rating Component',
     description: 'User interactions and updating the DOM.', 
-    image: 'htmlCssJs/ratingComponent.png',
+    image: 'htmlCssJs/ratingcomponent.png',
     link: 'https://interactive-rating-component-ivory.vercel.app/',
     git: 'https://github.com/LuciMacedo/Interactive-rating-component',
     tech: 'HTML, CSS, JavaScript',
@@ -36,7 +36,7 @@ export const projectsData = [
   {
     title: "Feel Nature's Touch",
     description: 'Static Page', 
-    image: 'htmlCssJs/feelNaturestouch.png',
+    image: 'htmlCssJs/feelnaturestouch.png',
     link: 'https://feel-nature-poem-4ie8.vercel.app/',
     git: 'https://github.com/LuciMacedo/feelNaturePoem',
     tech: 'HTML, CSS',
@@ -44,7 +44,7 @@ export const projectsData = [
   {
     title: "Shooter Game",
     description: 'Shooter game', 
-    image: 'htmlCssJs/shooterGame.png',
+    image: 'htmlCssJs/shootergame.png',
     link: 'https://shooter-game-e713.vercel.app/',
     git: 'https://github.com/LuciMacedo/shooterGame',
     tech: 'HTML, CSS, JavaScript',

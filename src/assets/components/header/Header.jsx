@@ -1,5 +1,5 @@
 import { HeaderWrapper } from "./style";
-import LuciPic from '../../img/luuciprofile.webp'
+import LuciPic from '../../img/luci4.jpeg'
 
 export function Header() {
  
