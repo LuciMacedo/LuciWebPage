@@ -1,6 +1,6 @@
 # Personal Web Page
 
-This is my personal web page to show my projects and my coding skills by building projects. 
+This is my web page to show my projects and my coding skills building projects. 
 
 ## Table of contents
 
@@ -16,7 +16,7 @@ This is my personal web page to show my projects and my coding skills by buildin
 
 
 ## Overview
- Static web page for my portfolio 
+ Static web page for my portfolio.
 
 ### The challenge
 
@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./src/assets/img/screenshottwp.webp)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/LuciMacedo/LuciWebPage.github.io)
+- Live Site URL: [Add live site URL here](https://luci-webpage.vercel.app/)
 
 
 ### Built with
@@ -45,17 +45,13 @@ Users should be able to:
 - [Styled Components](https://styled-components.com/) - For styles
 
 ### What I learned
-
-
+While working through this project I could practice Router. I am proud that I have built this application from scratch for my portfolio without any tutorial.
 
 ### Continued development
 
-
+Areas that I want to continue focusing on in future projects are JavaScript and React.  
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
+- Website - [Luci](https://luci-webpage.vercel.app/)
+- LinkedIn - [@lucimacedo](linkedin.com/in/lucimaramacedom)

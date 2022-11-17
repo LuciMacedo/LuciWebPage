@@ -54,3 +54,11 @@ export const ContactStyle = styled.section`
     }
   }
 `
+
+export const Author = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin: 3rem;
+  `

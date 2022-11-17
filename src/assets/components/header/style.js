@@ -29,6 +29,27 @@ export const HeaderWrapper = styled.header`
       color: #dadad7d9;
       line-height: 2;
     }
+
+    button {
+      margin-top: 3rem;
+      padding: .5rem;
+      border-radius: 8px;
+      background: ${(props) => props.theme['red']};
+      border: none;
+
+      a {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-decoration: none;
+        padding: 0.5rem;
+        color: white;
+
+        svg {
+          margin-left: 0.4rem;
+        }
+      }
+    }
   }
 
   img {

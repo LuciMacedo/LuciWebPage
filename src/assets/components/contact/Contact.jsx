@@ -1,5 +1,5 @@
 import { ChatCenteredText, Envelope, GithubLogo, LinkedinLogo } from 'phosphor-react'
-import { ContactStyle } from './style'
+import { Author, ContactStyle } from './style'
 import { ContactTitle } from './style';
 
 export function Contact() {
@@ -27,6 +27,10 @@ export function Contact() {
         </a>
 
       </ContactStyle>
+
+      <Author>
+        <p>Developed by Luci Macedo</p>
+      </Author>
       </footer>
     );
 }
