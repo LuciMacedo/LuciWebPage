@@ -42,7 +42,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - Flexbox
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
+- [Styled Components](https://styled-components.com/) For styles
 
 ### What I learned
 While working through this project I could practice Router. I am proud that I have built this application from scratch for my portfolio without any tutorial.
