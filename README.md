@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/LuciMacedo/LuciWebPage.github.io)
-- Live Site URL: [Add live site URL here](https://luci-webpage.vercel.app/)
+- Solution URL: [Source code](https://github.com/LuciMacedo/LuciWebPage.github.io)
+- Live Site URL: [URL here](https://luci-webpage.vercel.app/)
 
 
 ### Built with
