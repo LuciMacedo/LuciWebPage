@@ -11,7 +11,7 @@ export function Header() {
       <article>
         <strong>Hello, World! I am Luci</strong>
         <h1>Front End Developer</h1>
-        <p>Enthusiastic Front End developer motivated to learn and prepared to contribute to your company's success while developing new skills and gaining experience.</p>
+        <p>A focused, results-driven, and highly capable Front- End Developer offering sound theoretical knowledge and practical experience across projects using HTML, CSS, JavaScript, React, Git, and GitHub.</p>
         <button>
           <a href={lucicv} target="_blank" download>
             Download CV 
