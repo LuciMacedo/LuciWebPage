@@ -28,6 +28,7 @@ export const HeaderWrapper = styled.header`
     p {
       color: #dadad7d9;
       line-height: 2;
+      text-align: justify;
     }
 
     button {
