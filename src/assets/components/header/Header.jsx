@@ -1,6 +1,5 @@
 import { HeaderWrapper } from "./style"
 import LuciPic from '../../img/luci5.webp'
-import {Link} from "react"
 import { DownloadSimple } from "phosphor-react";
 import lucicv from '../../img/lucicv.pdf'
 
